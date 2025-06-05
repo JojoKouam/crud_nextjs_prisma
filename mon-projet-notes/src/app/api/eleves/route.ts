@@ -1,7 +1,6 @@
-// src/app/api/eleves/route.ts
 import { NextRequest, NextResponse } from 'next/server';
-import prisma from '@/lib/prisma'; // Ajustez le chemin si nécessaire
-import { createEleveSchema } from '@/lib/schemas'; // Ajustez le chemin si nécessaire
+import prisma from '@/lib/prisma'; 
+import { createEleveSchema } from '@/lib/schemas'; 
 
 // POST /api/eleves - Ajouter un nouvel élève
 export async function POST(request: NextRequest) {
